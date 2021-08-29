@@ -87,6 +87,7 @@ function draw() {
     
     distance = distance + Math.round(getFrameRate() / 50);
 
+    rocket.visible = true;
     gameOver.visible = false;
     //restart.visible = false;
 
